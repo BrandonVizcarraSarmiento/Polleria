@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Polleria.presentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,12 @@ namespace Polleria
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            Inicio formInicio = new Inicio();
+            formInicio.Show();
         }
     }
 }
