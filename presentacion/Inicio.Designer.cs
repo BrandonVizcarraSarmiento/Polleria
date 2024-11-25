@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
-            this.panelMenu = new System.Windows.Forms.Panel();
-            this.btnPlanillas = new FontAwesome.Sharp.IconButton();
-            this.btnAsistencias = new FontAwesome.Sharp.IconButton();
+            this.pnlMenu = new System.Windows.Forms.Panel();
+            this.btnSeguridadAutoridad = new FontAwesome.Sharp.IconButton();
+            this.btnFinanzas = new FontAwesome.Sharp.IconButton();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
-            this.btnEmpleados = new FontAwesome.Sharp.IconButton();
-            this.btnConceptos = new FontAwesome.Sharp.IconButton();
-            this.btnFondoPension = new FontAwesome.Sharp.IconButton();
-            this.btnCargo = new FontAwesome.Sharp.IconButton();
-            this.btnBanco = new FontAwesome.Sharp.IconButton();
+            this.btnPromocionesPlatos = new FontAwesome.Sharp.IconButton();
+            this.btnClientesReservas = new FontAwesome.Sharp.IconButton();
+            this.btnGestionEmpleados = new FontAwesome.Sharp.IconButton();
+            this.btnInventarios = new FontAwesome.Sharp.IconButton();
+            this.btnResumenGeneral = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnMenu = new FontAwesome.Sharp.IconButton();
             this.imgLogo = new System.Windows.Forms.PictureBox();
             this.panelTitulo = new System.Windows.Forms.Panel();
-            this.panelContenUsuario = new System.Windows.Forms.Panel();
+            this.pnlUsuario = new System.Windows.Forms.Panel();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblRol = new System.Windows.Forms.Label();
@@ -50,76 +50,76 @@
             this.lblFecha = new System.Windows.Forms.Label();
             this.lblhora = new System.Windows.Forms.Label();
             this.pcbLogoImagen = new System.Windows.Forms.PictureBox();
-            this.panelMenu.SuspendLayout();
+            this.pnlMenu.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).BeginInit();
             this.panelTitulo.SuspendLayout();
-            this.panelContenUsuario.SuspendLayout();
+            this.pnlUsuario.SuspendLayout();
             this.panelContenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbLogoImagen)).BeginInit();
             this.SuspendLayout();
             // 
-            // panelMenu
+            // pnlMenu
             // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(102)))));
-            this.panelMenu.Controls.Add(this.btnPlanillas);
-            this.panelMenu.Controls.Add(this.btnAsistencias);
-            this.panelMenu.Controls.Add(this.btnSalir);
-            this.panelMenu.Controls.Add(this.btnEmpleados);
-            this.panelMenu.Controls.Add(this.btnConceptos);
-            this.panelMenu.Controls.Add(this.btnFondoPension);
-            this.panelMenu.Controls.Add(this.btnCargo);
-            this.panelMenu.Controls.Add(this.btnBanco);
-            this.panelMenu.Controls.Add(this.panel2);
-            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(218, 614);
-            this.panelMenu.TabIndex = 2;
+            this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(102)))));
+            this.pnlMenu.Controls.Add(this.btnSeguridadAutoridad);
+            this.pnlMenu.Controls.Add(this.btnFinanzas);
+            this.pnlMenu.Controls.Add(this.btnSalir);
+            this.pnlMenu.Controls.Add(this.btnPromocionesPlatos);
+            this.pnlMenu.Controls.Add(this.btnClientesReservas);
+            this.pnlMenu.Controls.Add(this.btnGestionEmpleados);
+            this.pnlMenu.Controls.Add(this.btnInventarios);
+            this.pnlMenu.Controls.Add(this.btnResumenGeneral);
+            this.pnlMenu.Controls.Add(this.panel2);
+            this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlMenu.Location = new System.Drawing.Point(0, 0);
+            this.pnlMenu.Name = "pnlMenu";
+            this.pnlMenu.Size = new System.Drawing.Size(218, 681);
+            this.pnlMenu.TabIndex = 2;
             // 
-            // btnPlanillas
+            // btnSeguridadAutoridad
             // 
-            this.btnPlanillas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPlanillas.FlatAppearance.BorderSize = 0;
-            this.btnPlanillas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPlanillas.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlanillas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnPlanillas.IconChar = FontAwesome.Sharp.IconChar.Clipboard;
-            this.btnPlanillas.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnPlanillas.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnPlanillas.IconSize = 30;
-            this.btnPlanillas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPlanillas.Location = new System.Drawing.Point(0, 316);
-            this.btnPlanillas.Name = "btnPlanillas";
-            this.btnPlanillas.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnPlanillas.Size = new System.Drawing.Size(218, 37);
-            this.btnPlanillas.TabIndex = 8;
-            this.btnPlanillas.Tag = "Planillas";
-            this.btnPlanillas.Text = "   Seguridad y Auditoría";
-            this.btnPlanillas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnPlanillas.UseVisualStyleBackColor = true;
+            this.btnSeguridadAutoridad.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSeguridadAutoridad.FlatAppearance.BorderSize = 0;
+            this.btnSeguridadAutoridad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeguridadAutoridad.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeguridadAutoridad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnSeguridadAutoridad.IconChar = FontAwesome.Sharp.IconChar.Clipboard;
+            this.btnSeguridadAutoridad.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnSeguridadAutoridad.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnSeguridadAutoridad.IconSize = 30;
+            this.btnSeguridadAutoridad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSeguridadAutoridad.Location = new System.Drawing.Point(0, 316);
+            this.btnSeguridadAutoridad.Name = "btnSeguridadAutoridad";
+            this.btnSeguridadAutoridad.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnSeguridadAutoridad.Size = new System.Drawing.Size(218, 37);
+            this.btnSeguridadAutoridad.TabIndex = 8;
+            this.btnSeguridadAutoridad.Tag = "Seguridad y Auditoría";
+            this.btnSeguridadAutoridad.Text = "   Seguridad y Auditoría";
+            this.btnSeguridadAutoridad.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSeguridadAutoridad.UseVisualStyleBackColor = true;
             // 
-            // btnAsistencias
+            // btnFinanzas
             // 
-            this.btnAsistencias.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAsistencias.FlatAppearance.BorderSize = 0;
-            this.btnAsistencias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAsistencias.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAsistencias.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnAsistencias.IconChar = FontAwesome.Sharp.IconChar.CalendarDay;
-            this.btnAsistencias.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnAsistencias.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnAsistencias.IconSize = 30;
-            this.btnAsistencias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAsistencias.Location = new System.Drawing.Point(0, 279);
-            this.btnAsistencias.Name = "btnAsistencias";
-            this.btnAsistencias.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnAsistencias.Size = new System.Drawing.Size(218, 37);
-            this.btnAsistencias.TabIndex = 7;
-            this.btnAsistencias.Tag = "Asistencias";
-            this.btnAsistencias.Text = "   Finanzas";
-            this.btnAsistencias.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnAsistencias.UseVisualStyleBackColor = true;
+            this.btnFinanzas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnFinanzas.FlatAppearance.BorderSize = 0;
+            this.btnFinanzas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFinanzas.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinanzas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnFinanzas.IconChar = FontAwesome.Sharp.IconChar.CalendarDay;
+            this.btnFinanzas.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnFinanzas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnFinanzas.IconSize = 30;
+            this.btnFinanzas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFinanzas.Location = new System.Drawing.Point(0, 279);
+            this.btnFinanzas.Name = "btnFinanzas";
+            this.btnFinanzas.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnFinanzas.Size = new System.Drawing.Size(218, 37);
+            this.btnFinanzas.TabIndex = 7;
+            this.btnFinanzas.Tag = "Finanzas";
+            this.btnFinanzas.Text = "   Finanzas";
+            this.btnFinanzas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnFinanzas.UseVisualStyleBackColor = true;
             // 
             // btnSalir
             // 
@@ -133,7 +133,7 @@
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 30;
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalir.Location = new System.Drawing.Point(0, 547);
+            this.btnSalir.Location = new System.Drawing.Point(0, 614);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnSalir.Size = new System.Drawing.Size(218, 67);
@@ -142,116 +142,117 @@
             this.btnSalir.Text = "   Salir";
             this.btnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // btnEmpleados
+            // btnPromocionesPlatos
             // 
-            this.btnEmpleados.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEmpleados.FlatAppearance.BorderSize = 0;
-            this.btnEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEmpleados.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmpleados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnEmpleados.IconChar = FontAwesome.Sharp.IconChar.PeopleGroup;
-            this.btnEmpleados.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnEmpleados.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnEmpleados.IconSize = 30;
-            this.btnEmpleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmpleados.Location = new System.Drawing.Point(0, 242);
-            this.btnEmpleados.Name = "btnEmpleados";
-            this.btnEmpleados.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnEmpleados.Size = new System.Drawing.Size(218, 37);
-            this.btnEmpleados.TabIndex = 5;
-            this.btnEmpleados.Tag = "Empleados";
-            this.btnEmpleados.Text = "   Promociones y Platos";
-            this.btnEmpleados.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnEmpleados.UseVisualStyleBackColor = true;
+            this.btnPromocionesPlatos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPromocionesPlatos.FlatAppearance.BorderSize = 0;
+            this.btnPromocionesPlatos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPromocionesPlatos.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPromocionesPlatos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnPromocionesPlatos.IconChar = FontAwesome.Sharp.IconChar.PeopleGroup;
+            this.btnPromocionesPlatos.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnPromocionesPlatos.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPromocionesPlatos.IconSize = 30;
+            this.btnPromocionesPlatos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPromocionesPlatos.Location = new System.Drawing.Point(0, 242);
+            this.btnPromocionesPlatos.Name = "btnPromocionesPlatos";
+            this.btnPromocionesPlatos.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnPromocionesPlatos.Size = new System.Drawing.Size(218, 37);
+            this.btnPromocionesPlatos.TabIndex = 5;
+            this.btnPromocionesPlatos.Tag = "Promociones y Platos";
+            this.btnPromocionesPlatos.Text = "   Promociones y Platos";
+            this.btnPromocionesPlatos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPromocionesPlatos.UseVisualStyleBackColor = true;
             // 
-            // btnConceptos
+            // btnClientesReservas
             // 
-            this.btnConceptos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnConceptos.FlatAppearance.BorderSize = 0;
-            this.btnConceptos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConceptos.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConceptos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnConceptos.IconChar = FontAwesome.Sharp.IconChar.Medapps;
-            this.btnConceptos.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnConceptos.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnConceptos.IconSize = 30;
-            this.btnConceptos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConceptos.Location = new System.Drawing.Point(0, 205);
-            this.btnConceptos.Name = "btnConceptos";
-            this.btnConceptos.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnConceptos.Size = new System.Drawing.Size(218, 37);
-            this.btnConceptos.TabIndex = 4;
-            this.btnConceptos.Tag = "Conceptos";
-            this.btnConceptos.Text = "   Clientes y Reservas";
-            this.btnConceptos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnConceptos.UseVisualStyleBackColor = true;
+            this.btnClientesReservas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnClientesReservas.FlatAppearance.BorderSize = 0;
+            this.btnClientesReservas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClientesReservas.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClientesReservas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnClientesReservas.IconChar = FontAwesome.Sharp.IconChar.Medapps;
+            this.btnClientesReservas.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnClientesReservas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnClientesReservas.IconSize = 30;
+            this.btnClientesReservas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClientesReservas.Location = new System.Drawing.Point(0, 205);
+            this.btnClientesReservas.Name = "btnClientesReservas";
+            this.btnClientesReservas.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnClientesReservas.Size = new System.Drawing.Size(218, 37);
+            this.btnClientesReservas.TabIndex = 4;
+            this.btnClientesReservas.Tag = "Clientes y Reservas";
+            this.btnClientesReservas.Text = "   Clientes y Reservas";
+            this.btnClientesReservas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnClientesReservas.UseVisualStyleBackColor = true;
             // 
-            // btnFondoPension
+            // btnGestionEmpleados
             // 
-            this.btnFondoPension.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnFondoPension.FlatAppearance.BorderSize = 0;
-            this.btnFondoPension.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFondoPension.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFondoPension.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnFondoPension.IconChar = FontAwesome.Sharp.IconChar.MoneyCheckDollar;
-            this.btnFondoPension.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnFondoPension.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnFondoPension.IconSize = 30;
-            this.btnFondoPension.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFondoPension.Location = new System.Drawing.Point(0, 168);
-            this.btnFondoPension.Name = "btnFondoPension";
-            this.btnFondoPension.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnFondoPension.Size = new System.Drawing.Size(218, 37);
-            this.btnFondoPension.TabIndex = 3;
-            this.btnFondoPension.Tag = "Fondo de pension";
-            this.btnFondoPension.Text = "   Gestión de Empleados\n";
-            this.btnFondoPension.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnFondoPension.UseVisualStyleBackColor = true;
+            this.btnGestionEmpleados.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnGestionEmpleados.FlatAppearance.BorderSize = 0;
+            this.btnGestionEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGestionEmpleados.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGestionEmpleados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnGestionEmpleados.IconChar = FontAwesome.Sharp.IconChar.MoneyCheckDollar;
+            this.btnGestionEmpleados.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnGestionEmpleados.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnGestionEmpleados.IconSize = 30;
+            this.btnGestionEmpleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGestionEmpleados.Location = new System.Drawing.Point(0, 168);
+            this.btnGestionEmpleados.Name = "btnGestionEmpleados";
+            this.btnGestionEmpleados.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnGestionEmpleados.Size = new System.Drawing.Size(218, 37);
+            this.btnGestionEmpleados.TabIndex = 3;
+            this.btnGestionEmpleados.Tag = "Gestión de Empleados\n";
+            this.btnGestionEmpleados.Text = "   Gestión de Empleados\n";
+            this.btnGestionEmpleados.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnGestionEmpleados.UseVisualStyleBackColor = true;
             // 
-            // btnCargo
+            // btnInventarios
             // 
-            this.btnCargo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCargo.FlatAppearance.BorderSize = 0;
-            this.btnCargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCargo.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnCargo.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
-            this.btnCargo.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnCargo.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnCargo.IconSize = 30;
-            this.btnCargo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCargo.Location = new System.Drawing.Point(0, 131);
-            this.btnCargo.Name = "btnCargo";
-            this.btnCargo.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnCargo.Size = new System.Drawing.Size(218, 37);
-            this.btnCargo.TabIndex = 2;
-            this.btnCargo.Tag = "Cargo";
-            this.btnCargo.Text = "   Inventarios";
-            this.btnCargo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCargo.UseVisualStyleBackColor = true;
+            this.btnInventarios.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInventarios.FlatAppearance.BorderSize = 0;
+            this.btnInventarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInventarios.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInventarios.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnInventarios.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
+            this.btnInventarios.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnInventarios.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnInventarios.IconSize = 30;
+            this.btnInventarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInventarios.Location = new System.Drawing.Point(0, 131);
+            this.btnInventarios.Name = "btnInventarios";
+            this.btnInventarios.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnInventarios.Size = new System.Drawing.Size(218, 37);
+            this.btnInventarios.TabIndex = 2;
+            this.btnInventarios.Tag = "Inventarios";
+            this.btnInventarios.Text = "   Inventarios";
+            this.btnInventarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnInventarios.UseVisualStyleBackColor = true;
             // 
-            // btnBanco
+            // btnResumenGeneral
             // 
-            this.btnBanco.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBanco.FlatAppearance.BorderSize = 0;
-            this.btnBanco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBanco.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBanco.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnBanco.IconChar = FontAwesome.Sharp.IconChar.Landmark;
-            this.btnBanco.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.btnBanco.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnBanco.IconSize = 30;
-            this.btnBanco.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBanco.Location = new System.Drawing.Point(0, 94);
-            this.btnBanco.Name = "btnBanco";
-            this.btnBanco.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnBanco.Size = new System.Drawing.Size(218, 37);
-            this.btnBanco.TabIndex = 1;
-            this.btnBanco.Tag = "Banco";
-            this.btnBanco.Text = "   Resumen General";
-            this.btnBanco.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnBanco.UseVisualStyleBackColor = true;
+            this.btnResumenGeneral.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnResumenGeneral.FlatAppearance.BorderSize = 0;
+            this.btnResumenGeneral.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnResumenGeneral.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResumenGeneral.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnResumenGeneral.IconChar = FontAwesome.Sharp.IconChar.Landmark;
+            this.btnResumenGeneral.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnResumenGeneral.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnResumenGeneral.IconSize = 30;
+            this.btnResumenGeneral.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnResumenGeneral.Location = new System.Drawing.Point(0, 94);
+            this.btnResumenGeneral.Name = "btnResumenGeneral";
+            this.btnResumenGeneral.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnResumenGeneral.Size = new System.Drawing.Size(218, 37);
+            this.btnResumenGeneral.TabIndex = 1;
+            this.btnResumenGeneral.Tag = "Resumen General";
+            this.btnResumenGeneral.Text = "   Resumen General";
+            this.btnResumenGeneral.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnResumenGeneral.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -276,6 +277,7 @@
             this.btnMenu.Size = new System.Drawing.Size(60, 60);
             this.btnMenu.TabIndex = 1;
             this.btnMenu.UseVisualStyleBackColor = true;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // imgLogo
             // 
@@ -290,7 +292,7 @@
             // panelTitulo
             // 
             this.panelTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(102)))));
-            this.panelTitulo.Controls.Add(this.panelContenUsuario);
+            this.panelTitulo.Controls.Add(this.pnlUsuario);
             this.panelTitulo.Controls.Add(this.lblTitulo);
             this.panelTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitulo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -299,22 +301,22 @@
             this.panelTitulo.Size = new System.Drawing.Size(886, 94);
             this.panelTitulo.TabIndex = 3;
             // 
-            // panelContenUsuario
+            // pnlUsuario
             // 
-            this.panelContenUsuario.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.panelContenUsuario.Controls.Add(this.lblRol);
-            this.panelContenUsuario.Controls.Add(this.lblUsuario);
-            this.panelContenUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.panelContenUsuario.Location = new System.Drawing.Point(709, 3);
-            this.panelContenUsuario.Name = "panelContenUsuario";
-            this.panelContenUsuario.Size = new System.Drawing.Size(152, 88);
-            this.panelContenUsuario.TabIndex = 3;
+            this.pnlUsuario.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pnlUsuario.Controls.Add(this.lblRol);
+            this.pnlUsuario.Controls.Add(this.lblUsuario);
+            this.pnlUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.pnlUsuario.Location = new System.Drawing.Point(739, 3);
+            this.pnlUsuario.Name = "pnlUsuario";
+            this.pnlUsuario.Size = new System.Drawing.Size(122, 88);
+            this.pnlUsuario.TabIndex = 3;
             // 
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(18, 18);
+            this.lblUsuario.Location = new System.Drawing.Point(55, 20);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(61, 16);
             this.lblUsuario.TabIndex = 1;
@@ -335,7 +337,7 @@
             // 
             this.lblRol.AutoSize = true;
             this.lblRol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRol.Location = new System.Drawing.Point(51, 53);
+            this.lblRol.Location = new System.Drawing.Point(88, 53);
             this.lblRol.Name = "lblRol";
             this.lblRol.Size = new System.Drawing.Size(28, 16);
             this.lblRol.TabIndex = 3;
@@ -352,7 +354,7 @@
             this.panelContenedor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.panelContenedor.Location = new System.Drawing.Point(218, 94);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(886, 520);
+            this.panelContenedor.Size = new System.Drawing.Size(886, 587);
             this.panelContenedor.TabIndex = 4;
             // 
             // lblFecha
@@ -361,7 +363,7 @@
             this.lblFecha.AutoSize = true;
             this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.lblFecha.Location = new System.Drawing.Point(373, 350);
+            this.lblFecha.Location = new System.Drawing.Point(399, 435);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(90, 31);
             this.lblFecha.TabIndex = 4;
@@ -373,7 +375,7 @@
             this.lblhora.AutoSize = true;
             this.lblhora.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.lblhora.Location = new System.Drawing.Point(416, 300);
+            this.lblhora.Location = new System.Drawing.Point(416, 383);
             this.lblhora.Name = "lblhora";
             this.lblhora.Size = new System.Drawing.Size(73, 31);
             this.lblhora.TabIndex = 3;
@@ -383,7 +385,7 @@
             // 
             this.pcbLogoImagen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pcbLogoImagen.Image = ((System.Drawing.Image)(resources.GetObject("pcbLogoImagen.Image")));
-            this.pcbLogoImagen.Location = new System.Drawing.Point(264, 6);
+            this.pcbLogoImagen.Location = new System.Drawing.Point(264, 39);
             this.pcbLogoImagen.Name = "pcbLogoImagen";
             this.pcbLogoImagen.Size = new System.Drawing.Size(397, 341);
             this.pcbLogoImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -394,20 +396,20 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1104, 614);
+            this.ClientSize = new System.Drawing.Size(1104, 681);
             this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.panelTitulo);
-            this.Controls.Add(this.panelMenu);
+            this.Controls.Add(this.pnlMenu);
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
-            this.panelMenu.ResumeLayout(false);
+            this.pnlMenu.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
             this.panelTitulo.ResumeLayout(false);
             this.panelTitulo.PerformLayout();
-            this.panelContenUsuario.ResumeLayout(false);
-            this.panelContenUsuario.PerformLayout();
+            this.pnlUsuario.ResumeLayout(false);
+            this.pnlUsuario.PerformLayout();
             this.panelContenedor.ResumeLayout(false);
             this.panelContenedor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbLogoImagen)).EndInit();
@@ -418,20 +420,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panelMenu;
-        private FontAwesome.Sharp.IconButton btnPlanillas;
-        private FontAwesome.Sharp.IconButton btnAsistencias;
+        private System.Windows.Forms.Panel pnlMenu;
+        private FontAwesome.Sharp.IconButton btnSeguridadAutoridad;
+        private FontAwesome.Sharp.IconButton btnFinanzas;
         private FontAwesome.Sharp.IconButton btnSalir;
-        private FontAwesome.Sharp.IconButton btnEmpleados;
-        private FontAwesome.Sharp.IconButton btnConceptos;
-        private FontAwesome.Sharp.IconButton btnFondoPension;
-        private FontAwesome.Sharp.IconButton btnCargo;
-        private FontAwesome.Sharp.IconButton btnBanco;
+        private FontAwesome.Sharp.IconButton btnPromocionesPlatos;
+        private FontAwesome.Sharp.IconButton btnClientesReservas;
+        private FontAwesome.Sharp.IconButton btnGestionEmpleados;
+        private FontAwesome.Sharp.IconButton btnInventarios;
+        private FontAwesome.Sharp.IconButton btnResumenGeneral;
         private System.Windows.Forms.Panel panel2;
         private FontAwesome.Sharp.IconButton btnMenu;
         private System.Windows.Forms.PictureBox imgLogo;
         private System.Windows.Forms.Panel panelTitulo;
-        private System.Windows.Forms.Panel panelContenUsuario;
+        private System.Windows.Forms.Panel pnlUsuario;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblRol;
