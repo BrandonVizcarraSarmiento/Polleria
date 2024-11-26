@@ -15,6 +15,7 @@ namespace Polleria.presentacion
         public Inicio()
         {
             InitializeComponent();
+            OcultarSubMenus();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -34,6 +35,7 @@ namespace Polleria.presentacion
                 pnlMenu.Width = 100;
                 imgLogo.Visible = false;
                 btnMenu.Dock = DockStyle.Top;
+                OcultarSubMenus();
                 foreach (Button menuButton in pnlMenu.Controls.OfType<Button>())
                 {
                     menuButton.Text = "";
@@ -53,6 +55,66 @@ namespace Polleria.presentacion
                     menuButton.Padding = new Padding(10, 0, 0, 0);
                 }
             }
+        }
+
+        private void OcultarSubMenus()
+        {
+            subMenuResumenGeneral.Visible = false;
+            subMenuInventarios.Visible = false;
+            subMenuGestionEmpleados.Visible = false ;
+            subMenuClientesReservas.Visible = false;
+            subMenuPromocionesPlatos.Visible = false;
+            subMenuFinanzas.Visible = false;
+            subMenuSeguridad.Visible = false;
+        }
+
+        private void AlternarSubMenu(Panel subMenu)
+        {
+            if (pnlMenu.Width <= 100)
+            {
+                subMenu.Visible = false;
+                MessageBox.Show("Expande el menú principal para acceder al submenú.");
+            }
+            else
+            {
+                OcultarSubMenus();
+                subMenu.Visible = !subMenu.Visible;
+            }
+        }
+
+        private void btnResumenGeneral_Click(object sender, EventArgs e)
+        {
+            AlternarSubMenu(subMenuResumenGeneral);
+        }
+
+        private void btnInventarios_Click(object sender, EventArgs e)
+        {
+            AlternarSubMenu(subMenuInventarios);
+        }
+
+        private void btnGestionEmpleados_Click(object sender, EventArgs e)
+        {
+            AlternarSubMenu(subMenuGestionEmpleados);
+        }
+
+        private void btnClientesReservas_Click(object sender, EventArgs e)
+        {
+            AlternarSubMenu(subMenuClientesReservas);
+        }
+
+        private void btnPromocionesPlatos_Click(object sender, EventArgs e)
+        {
+            AlternarSubMenu(subMenuPromocionesPlatos);
+        }
+
+        private void btnFinanzas_Click(object sender, EventArgs e)
+        {
+            AlternarSubMenu(subMenuFinanzas);
+        }
+
+        private void btnSeguridadAutoridad_Click(object sender, EventArgs e)
+        {
+            AlternarSubMenu(subMenuSeguridad);
         }
     }
 }
