@@ -53,7 +53,39 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="common\EntidadEmpleados.cs" />
+    <Compile Include="common\Asistencia\EntidadAsistencia.cs" />
+    <Compile Include="common\Auditoria\EntidadAuditoria.cs" />
+    <Compile Include="common\Clase\EntidadCaja.cs" />
+    <Compile Include="common\Cliente\EntidadCliente.cs" />
+    <Compile Include="common\Cocina\EntidadCocina.cs" />
+    <Compile Include="common\Compra\EntidadCompra.cs" />
+    <Compile Include="common\DetalleCompra\EntidadDetalleCompra.cs" />
+    <Compile Include="common\DetallePedido\EntidadDetallePedido.cs" />
+    <Compile Include="common\Empleados\EntidadEmpleados.cs" />
+    <Compile Include="common\Empleado\EntidadEmpleado.cs" />
+    <Compile Include="common\Entrega\EntidadEntrega.cs" />
+    <Compile Include="common\Equipo\EntidadEquipo.cs" />
+    <Compile Include="common\Evaluacion\EntidadEvaluacion.cs" />
+    <Compile Include="common\Evento\EntidadEvento.cs" />
+    <Compile Include="common\Horario1\EntidadHorario.cs" />
+    <Compile Include="common\Horario\EntidadHorario.cs" />
+    <Compile Include="common\IngredientePorPlato\EntidadIngredientePorPlato.cs" />
+    <Compile Include="common\Ingrediente\EntidadIngrediente.cs" />
+    <Compile Include="common\Inventario\EntidadInventario.cs" />
+    <Compile Include="common\Mantenimiento\EntidadMantenimiento.cs" />
+    <Compile Include="common\Mesa\EntidadMesa.cs" />
+    <Compile Include="common\MetodoPago\EntidadMetodoPago.cs" />
+    <Compile Include="common\OrdenMesa\EntidadOrdenMesa.cs" />
+    <Compile Include="common\PagoProveedor\EntidadPagoProveedor.cs" />
+    <Compile Include="common\Pago\EntidadPago.cs" />
+    <Compile Include="common\Pedido\EntidadPedido.cs" />
+    <Compile Include="common\Plato\EntidadPlato.cs" />
+    <Compile Include="common\Promocion\EntidadPromocion.cs" />
+    <Compile Include="common\Proveedor\EntidadProveedor.cs" />
+    <Compile Include="common\Reserva\EntidadReserva.cs" />
+    <Compile Include="common\TipoEvento\EntidadTipoEvento.cs" />
+    <Compile Include="common\Turno\EntidadTurno.cs" />
+    <Compile Include="common\Usuario\EntidadUsuario.cs" />
     <Compile Include="presentacion\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
