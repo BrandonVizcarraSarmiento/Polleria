@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FontAwesome.Sharp;
+using Polleria.presentacion.resumenGeneral.ventasDia;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,8 @@ namespace Polleria.presentacion
 {
     public partial class Inicio : Form
     {
+        private static IconButton MenuActivo = null;
+        private static Form FormularioActivo = null;
         public Inicio()
         {
             InitializeComponent();
@@ -115,6 +119,39 @@ namespace Polleria.presentacion
         private void btnSeguridadAutoridad_Click(object sender, EventArgs e)
         {
             AlternarSubMenu(subMenuSeguridad);
+        }
+
+        private void AbrirFormulario(IconButton menu, Form formulario)
+        {
+            lblhora.Visible = false;
+            lblFecha.Visible = false;
+            pcbLogoImagen.Visible = false;
+
+            if (MenuActivo != null)
+            {
+                MenuActivo.BackColor = Color.FromArgb(255, 217, 102); // Restaurar el color del botón anterior
+                MenuActivo.ForeColor = SystemColors.ButtonHighlight; // Restaurar el color de texto del botón anterior
+            }
+            menu.BackColor = Color.FromArgb(250, 243, 224);
+            MenuActivo = menu;
+
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+            FormularioActivo = formulario;
+            formulario.TopLevel = false;
+            formulario.FormBorderStyle = FormBorderStyle.None;
+            formulario.Dock = DockStyle.Fill;
+
+            pnlContenedor.Controls.Add(formulario);
+            formulario.Show();
+        }
+
+        private void btnVentaDia_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmVentasDia());
         }
     }
 }
