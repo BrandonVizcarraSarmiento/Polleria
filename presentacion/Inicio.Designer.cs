@@ -588,6 +588,7 @@
             this.btnInventarioGeneral.Tag = "";
             this.btnInventarioGeneral.Text = "Inventario General";
             this.btnInventarioGeneral.UseVisualStyleBackColor = false;
+            this.btnInventarioGeneral.Click += new System.EventHandler(this.btnInventarioGeneral_Click);
             // 
             // btnUltimasCompras
             // 
@@ -606,6 +607,7 @@
             this.btnUltimasCompras.Tag = "";
             this.btnUltimasCompras.Text = "Últimas Compras";
             this.btnUltimasCompras.UseVisualStyleBackColor = false;
+            this.btnUltimasCompras.Click += new System.EventHandler(this.btnUltimasCompras_Click);
             // 
             // btnIngredientesCriticos
             // 
@@ -624,6 +626,7 @@
             this.btnIngredientesCriticos.Tag = "";
             this.btnIngredientesCriticos.Text = "Ingredientes Críticos";
             this.btnIngredientesCriticos.UseVisualStyleBackColor = false;
+            this.btnIngredientesCriticos.Click += new System.EventHandler(this.btnIngredientesCriticos_Click);
             // 
             // btnInventarios
             // 
@@ -676,6 +679,7 @@
             this.btnMesasOcuDisp.Tag = "";
             this.btnMesasOcuDisp.Text = "Mesas Ocupadas/Disponibles";
             this.btnMesasOcuDisp.UseVisualStyleBackColor = false;
+            this.btnMesasOcuDisp.Click += new System.EventHandler(this.btnMesasOcuDisp_Click);
             // 
             // btnPedidosActivos
             // 
@@ -694,6 +698,7 @@
             this.btnPedidosActivos.Tag = "";
             this.btnPedidosActivos.Text = "Pedidos Activos";
             this.btnPedidosActivos.UseVisualStyleBackColor = false;
+            this.btnPedidosActivos.Click += new System.EventHandler(this.btnPedidosActivos_Click);
             // 
             // btnVentaDia
             // 

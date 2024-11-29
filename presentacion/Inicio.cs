@@ -1,4 +1,9 @@
 ﻿using FontAwesome.Sharp;
+using Polleria.presentacion.inventarios.ingredientesCriticos;
+using Polleria.presentacion.inventarios.inventarioGeneral;
+using Polleria.presentacion.inventarios.ultimasCompras;
+using Polleria.presentacion.resumenGeneral.mesasOcuDis;
+using Polleria.presentacion.resumenGeneral.pedidosActivos;
 using Polleria.presentacion.resumenGeneral.ventasDia;
 using System;
 using System.Collections.Generic;
@@ -130,7 +135,7 @@ namespace Polleria.presentacion
             if (MenuActivo != null)
             {
                 MenuActivo.BackColor = Color.FromArgb(255, 217, 102); // Restaurar el color del botón anterior
-                MenuActivo.ForeColor = SystemColors.ButtonHighlight; // Restaurar el color de texto del botón anterior
+                MenuActivo.ForeColor = Color.FromArgb(51, 51, 51); // Restaurar el color de texto del botón anterior
             }
             menu.BackColor = Color.FromArgb(250, 243, 224);
             MenuActivo = menu;
@@ -152,6 +157,31 @@ namespace Polleria.presentacion
         private void btnVentaDia_Click(object sender, EventArgs e)
         {
             AbrirFormulario((IconButton)sender, new FrmVentasDia());
+        }
+
+        private void btnPedidosActivos_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmPedidosActivos());
+        }
+
+        private void btnMesasOcuDisp_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmMesasOcuDis());
+        }
+
+        private void btnIngredientesCriticos_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmIngredientesCriticos());
+        }
+
+        private void btnUltimasCompras_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmUltimasCompras());
+        }
+
+        private void btnInventarioGeneral_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmInventarioGeneral());
         }
     }
 }
