@@ -57,6 +57,7 @@
     <Compile Include="common\Auditoria\EntidadAuditoria.cs" />
     <Compile Include="common\Clase\EntidadCaja.cs" />
     <Compile Include="common\Cliente\EntidadCliente.cs" />
+    <Compile Include="common\Cocina\Class1.cs" />
     <Compile Include="common\Cocina\EntidadCocina.cs" />
     <Compile Include="common\Compra\EntidadCompra.cs" />
     <Compile Include="common\DetalleCompra\EntidadDetalleCompra.cs" />
@@ -86,6 +87,8 @@
     <Compile Include="common\TipoEvento\EntidadTipoEvento.cs" />
     <Compile Include="common\Turno\EntidadTurno.cs" />
     <Compile Include="common\Usuario\EntidadUsuario.cs" />
+    <Compile Include="datos\Class1.cs" />
+    <Compile Include="negocios\Class1.cs" />
     <Compile Include="presentacion\clientesReservas\clientesFrecuentes\FrmClientesFrecuentes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -309,10 +312,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="datos\" />
-    <Folder Include="negocio\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Resources\logo.png" />
   </ItemGroup>
