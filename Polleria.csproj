@@ -53,7 +53,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="datos\EntidadEmpleados.cs" />
+    <Compile Include="common\EntidadEmpleados.cs" />
     <Compile Include="presentacion\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,7 +152,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="common\" />
+    <Folder Include="datos\" />
     <Folder Include="negocio\" />
   </ItemGroup>
   <ItemGroup>
