@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Polleria.presentacion.inventarios.ultimasCompras
 {
-    public partial class FrmUltimasCompras : Form
+    public partial class S : Form
     {
-        public FrmUltimasCompras()
+        public S()
         {
             InitializeComponent();
         }

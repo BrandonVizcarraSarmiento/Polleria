@@ -876,7 +876,7 @@
             this.pnlContenedor.Controls.Add(this.lblhora);
             this.pnlContenedor.Controls.Add(this.pcbLogoImagen);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlContenedor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pnlContenedor.ForeColor = System.Drawing.SystemColors.Desktop;
             this.pnlContenedor.Location = new System.Drawing.Point(228, 94);
             this.pnlContenedor.Name = "pnlContenedor";
             this.pnlContenedor.Size = new System.Drawing.Size(953, 489);

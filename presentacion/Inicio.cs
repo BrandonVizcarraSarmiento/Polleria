@@ -190,7 +190,7 @@ namespace Polleria.presentacion
 
         private void btnUltimasCompras_Click(object sender, EventArgs e)
         {
-            AbrirFormulario((IconButton)sender, new FrmUltimasCompras());
+            AbrirFormulario((IconButton)sender, new S());
         }
 
         private void btnInventarioGeneral_Click(object sender, EventArgs e)
