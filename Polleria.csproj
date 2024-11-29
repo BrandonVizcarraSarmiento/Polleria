@@ -54,6 +54,60 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="common\EntidadEmpleados.cs" />
+    <Compile Include="presentacion\clientesReservas\clientesFrecuentes\FrmClientesFrecuentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\clientesReservas\clientesFrecuentes\FrmClientesFrecuentes.Designer.cs">
+      <DependentUpon>FrmClientesFrecuentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\clientesReservas\estadoReservas\FrmEstadoReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\clientesReservas\estadoReservas\FrmEstadoReservas.Designer.cs">
+      <DependentUpon>FrmEstadoReservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\clientesReservas\reservasHoy\FrmReservasHoy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\clientesReservas\reservasHoy\FrmReservasHoy.Designer.cs">
+      <DependentUpon>FrmReservasHoy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\finanzas\estadoCaja\FrmEstadoCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\finanzas\estadoCaja\FrmEstadoCaja.Designer.cs">
+      <DependentUpon>FrmEstadoCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\finanzas\ingresosRecientes\FrmIngresosRecientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\finanzas\ingresosRecientes\FrmIngresosRecientes.Designer.cs">
+      <DependentUpon>FrmIngresosRecientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\finanzas\pagosProveedores\FrmPagosProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\finanzas\pagosProveedores\FrmPagosProveedores.Designer.cs">
+      <DependentUpon>FrmPagosProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\gestionEmpleados\asistenciasDia\FrmAsistenciasDia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\gestionEmpleados\asistenciasDia\FrmAsistenciasDia.Designer.cs">
+      <DependentUpon>FrmAsistenciasDia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\gestionEmpleados\empleadosActivos\FrmEmpleadosActivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\gestionEmpleados\empleadosActivos\FrmEmpleadosActivos.Designer.cs">
+      <DependentUpon>FrmEmpleadosActivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\gestionEmpleados\evalucionesRecientes\FrmEvalucionesRecientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\gestionEmpleados\evalucionesRecientes\FrmEvalucionesRecientes.Designer.cs">
+      <DependentUpon>FrmEvalucionesRecientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="presentacion\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +138,18 @@
     <Compile Include="presentacion\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="presentacion\promocionesPlatos\platosMasVendidos\FrmpPlatosMasVendidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\promocionesPlatos\platosMasVendidos\FrmpPlatosMasVendidos.Designer.cs">
+      <DependentUpon>FrmpPlatosMasVendidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\promocionesPlatos\promocionesActivas\FrmPromocionesActivas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\promocionesPlatos\promocionesActivas\FrmPromocionesActivas.Designer.cs">
+      <DependentUpon>FrmPromocionesActivas.cs</DependentUpon>
+    </Compile>
     <Compile Include="presentacion\resumenGeneral\mesasOcuDis\FrmMesasOcuDis.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,8 +168,53 @@
     <Compile Include="presentacion\resumenGeneral\ventasDia\FrmVentasDia.Designer.cs">
       <DependentUpon>FrmVentasDia.cs</DependentUpon>
     </Compile>
+    <Compile Include="presentacion\seguridadAuditoria\inicioSesionReciente\FrmInicioSesionReciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\seguridadAuditoria\inicioSesionReciente\FrmInicioSesionReciente.Designer.cs">
+      <DependentUpon>FrmInicioSesionReciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\seguridadAuditoria\ultimasActividades\FrmUltimasActividades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\seguridadAuditoria\ultimasActividades\FrmUltimasActividades.Designer.cs">
+      <DependentUpon>FrmUltimasActividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\seguridadAuditoria\usuariosActivos\FrmUsuarioActivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\seguridadAuditoria\usuariosActivos\FrmUsuarioActivos.Designer.cs">
+      <DependentUpon>FrmUsuarioActivos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="presentacion\clientesReservas\clientesFrecuentes\FrmClientesFrecuentes.resx">
+      <DependentUpon>FrmClientesFrecuentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\clientesReservas\estadoReservas\FrmEstadoReservas.resx">
+      <DependentUpon>FrmEstadoReservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\clientesReservas\reservasHoy\FrmReservasHoy.resx">
+      <DependentUpon>FrmReservasHoy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\finanzas\estadoCaja\FrmEstadoCaja.resx">
+      <DependentUpon>FrmEstadoCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\finanzas\ingresosRecientes\FrmIngresosRecientes.resx">
+      <DependentUpon>FrmIngresosRecientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\finanzas\pagosProveedores\FrmPagosProveedores.resx">
+      <DependentUpon>FrmPagosProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\gestionEmpleados\asistenciasDia\FrmAsistenciasDia.resx">
+      <DependentUpon>FrmAsistenciasDia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\gestionEmpleados\empleadosActivos\FrmEmpleadosActivos.resx">
+      <DependentUpon>FrmEmpleadosActivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\gestionEmpleados\evalucionesRecientes\FrmEvalucionesRecientes.resx">
+      <DependentUpon>FrmEvalucionesRecientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="presentacion\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +230,12 @@
     <EmbeddedResource Include="presentacion\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\promocionesPlatos\platosMasVendidos\FrmpPlatosMasVendidos.resx">
+      <DependentUpon>FrmpPlatosMasVendidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\promocionesPlatos\promocionesActivas\FrmPromocionesActivas.resx">
+      <DependentUpon>FrmPromocionesActivas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="presentacion\resumenGeneral\mesasOcuDis\FrmMesasOcuDis.resx">
       <DependentUpon>FrmMesasOcuDis.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +244,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="presentacion\resumenGeneral\ventasDia\FrmVentasDia.resx">
       <DependentUpon>FrmVentasDia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\seguridadAuditoria\inicioSesionReciente\FrmInicioSesionReciente.resx">
+      <DependentUpon>FrmInicioSesionReciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\seguridadAuditoria\ultimasActividades\FrmUltimasActividades.resx">
+      <DependentUpon>FrmUltimasActividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\seguridadAuditoria\usuariosActivos\FrmUsuarioActivos.resx">
+      <DependentUpon>FrmUsuarioActivos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
