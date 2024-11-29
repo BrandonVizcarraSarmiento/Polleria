@@ -1,10 +1,24 @@
 ﻿using FontAwesome.Sharp;
+using Polleria.presentacion.clientesReservas.clientesFrecuentes;
+using Polleria.presentacion.clientesReservas.estadoReservas;
+using Polleria.presentacion.clientesReservas.reservasHoy;
+using Polleria.presentacion.finanzas.estadoCaja;
+using Polleria.presentacion.finanzas.ingresosRecientes;
+using Polleria.presentacion.finanzas.pagosProveedores;
+using Polleria.presentacion.gestionEmpleados.asistenciasDia;
+using Polleria.presentacion.gestionEmpleados.empleadosActivos;
+using Polleria.presentacion.gestionEmpleados.evalucionesRecientes;
 using Polleria.presentacion.inventarios.ingredientesCriticos;
 using Polleria.presentacion.inventarios.inventarioGeneral;
 using Polleria.presentacion.inventarios.ultimasCompras;
+using Polleria.presentacion.promocionesPlatos.platosMasVendidos;
+using Polleria.presentacion.promocionesPlatos.promocionesActivas;
 using Polleria.presentacion.resumenGeneral.mesasOcuDis;
 using Polleria.presentacion.resumenGeneral.pedidosActivos;
 using Polleria.presentacion.resumenGeneral.ventasDia;
+using Polleria.presentacion.seguridadAuditoria.inicioSesionReciente;
+using Polleria.presentacion.seguridadAuditoria.ultimasActividades;
+using Polleria.presentacion.seguridadAuditoria.usuariosActivos;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -182,6 +196,76 @@ namespace Polleria.presentacion
         private void btnInventarioGeneral_Click(object sender, EventArgs e)
         {
             AbrirFormulario((IconButton)sender, new FrmInventarioGeneral());
+        }
+
+        private void btnEmpleadosActivos_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmEmpleadosActivos());
+        }
+
+        private void btnAsistencias_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmAsistenciasDia());
+        }
+
+        private void btnEvaluciones_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmEvalucionesRecientes());
+        }
+
+        private void btnClientesFrecuentes_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmClientesFrecuentes());
+        }
+
+        private void btnReservasHoy_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmReservasHoy());
+        }
+
+        private void btnEstadoReserva_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmEstadoReservas());
+        }
+
+        private void btnPromocionesActivas_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmPromocionesActivas());
+        }
+
+        private void btnPlatosMasVendidos_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmpPlatosMasVendidos());
+        }
+
+        private void btnEstadoCaja_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmEstadoCaja());
+        }
+
+        private void btnPagosProveedores_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmPagosProveedores());
+        }
+
+        private void btnIngresosRecientes_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmIngresosRecientes());
+        }
+
+        private void btnActividadesSistema_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmUltimasActividades());
+        }
+
+        private void btnSesionReciente_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmInicioSesionReciente());
+        }
+
+        private void btnUsuarioActivo_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconButton)sender, new FrmUsuarioActivos());
         }
     }
 }

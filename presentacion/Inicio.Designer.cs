@@ -148,6 +148,7 @@
             this.btnUsuarioActivo.Tag = "";
             this.btnUsuarioActivo.Text = "Usuarios Activos";
             this.btnUsuarioActivo.UseVisualStyleBackColor = false;
+            this.btnUsuarioActivo.Click += new System.EventHandler(this.btnUsuarioActivo_Click);
             // 
             // btnSesionReciente
             // 
@@ -166,6 +167,7 @@
             this.btnSesionReciente.Tag = "";
             this.btnSesionReciente.Text = "Inicios de Sesión Recientes";
             this.btnSesionReciente.UseVisualStyleBackColor = false;
+            this.btnSesionReciente.Click += new System.EventHandler(this.btnSesionReciente_Click);
             // 
             // btnActividadesSistema
             // 
@@ -184,6 +186,7 @@
             this.btnActividadesSistema.Tag = "";
             this.btnActividadesSistema.Text = "Últimas Actividades del Sistema";
             this.btnActividadesSistema.UseVisualStyleBackColor = false;
+            this.btnActividadesSistema.Click += new System.EventHandler(this.btnActividadesSistema_Click);
             // 
             // btnSeguridadAutoridad
             // 
@@ -236,6 +239,7 @@
             this.btnIngresosRecientes.Tag = "";
             this.btnIngresosRecientes.Text = "Ingresos Recientes";
             this.btnIngresosRecientes.UseVisualStyleBackColor = false;
+            this.btnIngresosRecientes.Click += new System.EventHandler(this.btnIngresosRecientes_Click);
             // 
             // btnPagosProveedores
             // 
@@ -254,6 +258,7 @@
             this.btnPagosProveedores.Tag = "";
             this.btnPagosProveedores.Text = "Pagos a Proveedores";
             this.btnPagosProveedores.UseVisualStyleBackColor = false;
+            this.btnPagosProveedores.Click += new System.EventHandler(this.btnPagosProveedores_Click);
             // 
             // btnEstadoCaja
             // 
@@ -272,6 +277,7 @@
             this.btnEstadoCaja.Tag = "";
             this.btnEstadoCaja.Text = "Estado de Caja";
             this.btnEstadoCaja.UseVisualStyleBackColor = false;
+            this.btnEstadoCaja.Click += new System.EventHandler(this.btnEstadoCaja_Click);
             // 
             // btnFinanzas
             // 
@@ -342,6 +348,7 @@
             this.btnPlatosMasVendidos.Tag = "";
             this.btnPlatosMasVendidos.Text = "Platos Más Vendidos";
             this.btnPlatosMasVendidos.UseVisualStyleBackColor = false;
+            this.btnPlatosMasVendidos.Click += new System.EventHandler(this.btnPlatosMasVendidos_Click);
             // 
             // btnPromocionesActivas
             // 
@@ -360,6 +367,7 @@
             this.btnPromocionesActivas.Tag = "";
             this.btnPromocionesActivas.Text = "Promociones Activas";
             this.btnPromocionesActivas.UseVisualStyleBackColor = false;
+            this.btnPromocionesActivas.Click += new System.EventHandler(this.btnPromocionesActivas_Click);
             // 
             // btnPromocionesPlatos
             // 
@@ -412,6 +420,7 @@
             this.btnEstadoReserva.Tag = "";
             this.btnEstadoReserva.Text = "Estado de Reservas";
             this.btnEstadoReserva.UseVisualStyleBackColor = false;
+            this.btnEstadoReserva.Click += new System.EventHandler(this.btnEstadoReserva_Click);
             // 
             // btnReservasHoy
             // 
@@ -430,6 +439,7 @@
             this.btnReservasHoy.Tag = "";
             this.btnReservasHoy.Text = "Reservas de Hoy";
             this.btnReservasHoy.UseVisualStyleBackColor = false;
+            this.btnReservasHoy.Click += new System.EventHandler(this.btnReservasHoy_Click);
             // 
             // btnClientesFrecuentes
             // 
@@ -448,6 +458,7 @@
             this.btnClientesFrecuentes.Tag = "";
             this.btnClientesFrecuentes.Text = "Clientes Frecuentes";
             this.btnClientesFrecuentes.UseVisualStyleBackColor = false;
+            this.btnClientesFrecuentes.Click += new System.EventHandler(this.btnClientesFrecuentes_Click);
             // 
             // btnClientesReservas
             // 
@@ -500,6 +511,7 @@
             this.btnEvaluciones.Tag = "";
             this.btnEvaluciones.Text = "Evaluaciones Recientes";
             this.btnEvaluciones.UseVisualStyleBackColor = false;
+            this.btnEvaluciones.Click += new System.EventHandler(this.btnEvaluciones_Click);
             // 
             // btnAsistencias
             // 
@@ -518,6 +530,7 @@
             this.btnAsistencias.Tag = "";
             this.btnAsistencias.Text = "Asistencias del Día";
             this.btnAsistencias.UseVisualStyleBackColor = false;
+            this.btnAsistencias.Click += new System.EventHandler(this.btnAsistencias_Click);
             // 
             // btnEmpleadosActivos
             // 
@@ -536,6 +549,7 @@
             this.btnEmpleadosActivos.Tag = "";
             this.btnEmpleadosActivos.Text = "Empleados Activos";
             this.btnEmpleadosActivos.UseVisualStyleBackColor = false;
+            this.btnEmpleadosActivos.Click += new System.EventHandler(this.btnEmpleadosActivos_Click);
             // 
             // btnGestionEmpleados
             // 
